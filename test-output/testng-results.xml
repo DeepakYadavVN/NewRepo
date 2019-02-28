@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5726" started-at="2019-02-28T20:35:23Z" finished-at="2019-02-28T20:35:29Z">
+  <suite name="Default suite" duration-ms="115" started-at="2019-02-28T21:28:37Z" finished-at="2019-02-28T21:28:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5726" started-at="2019-02-28T20:35:23Z" finished-at="2019-02-28T20:35:29Z">
+    <test name="Default test" duration-ms="115" started-at="2019-02-28T21:28:37Z" finished-at="2019-02-28T21:28:38Z">
       <class name="com.qa.crm.testcases.LoginPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@13e39c73]" name="setup" is-config="true" duration-ms="5688" started-at="2019-02-28T20:35:24Z" finished-at="2019-02-28T20:35:29Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@42e26948]" name="setup" is-config="true" duration-ms="84" started-at="2019-02-28T21:28:37Z" finished-at="2019-02-28T21:28:38Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="LoginPageEnterTest()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@13e39c73]" name="LoginPageEnterTest" duration-ms="0" started-at="2019-02-28T20:35:29Z" finished-at="2019-02-28T20:35:29Z">
+        <test-method status="SKIP" signature="LoginPageEnterTest()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@42e26948]" name="LoginPageEnterTest" duration-ms="0" started-at="2019-02-28T21:28:38Z" finished-at="2019-02-28T21:28:38Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -107,7 +107,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageEnterTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@13e39c73]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-28T20:35:29Z" finished-at="2019-02-28T20:35:29Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-28T21:28:38Z" finished-at="2019-02-28T21:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
