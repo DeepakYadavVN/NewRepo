@@ -31,9 +31,5 @@ public class LoginPageTest extends TestBase {
 	@Test
 	public void LoginPageEnterTest() {
 		homepage=Loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
-		Assert.assertEquals("test", "test1");
-		Assert.assertEquals("test", "test1");
-		Assert.assertEquals("test", "test1");
-		
 	}
 }
