@@ -33,7 +33,7 @@ public class TestBase {
 		
 		String Browseranme=prop.getProperty("browser");
 		if(Browseranme.equals("chrome")) {
-			System.setProperty("Webdriver.chrome.driver","/Users/dy0618/SmartDeviceTestUS/DemoFreeCrm10/ChromeDriver");
+			System.setProperty("webdriver.chrome.driver","/Users/dy0618/SmartDeviceTestUS/DemoFreeCrm10/ChromeDriver/chromedriver 3");
 			driver = new ChromeDriver();
 		}else if(Browseranme.equals("FF")) {
 			System.setProperty("Webdriver.gecko.driver","/Users/dy0618/Documents/ChromeDriver");
