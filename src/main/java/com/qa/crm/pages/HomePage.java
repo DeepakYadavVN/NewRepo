@@ -43,4 +43,9 @@ public class HomePage extends TestBase {
 	public boolean verifyUsername() {
 		return UserName.isDisplayed();
 	}
+	
+	public void testlink() {
+		//driver.get("https://coin.zerodha.com");
+		System.out.println("Homepage");
+	}
 }

@@ -1,5 +1,6 @@
 package com.qa.crm.testcases;
 
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,7 @@ public class CreateDealPageTest extends TestBase {
 	public void setup() {
 		intilization();
 		loginpage = new LoginPage();
-		homepage=loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		//homepage=loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 		deals=new DealsPage();
 		createDealPage = new CreateDealPage();
 	}

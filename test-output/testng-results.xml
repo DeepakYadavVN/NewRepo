@@ -1,21 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12630" started-at="2019-03-08T06:49:48Z" finished-at="2019-03-08T06:50:01Z">
+  <suite name="Default suite" duration-ms="672" started-at="2019-09-08T00:00:21Z" finished-at="2019-09-08T00:00:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12630" started-at="2019-03-08T06:49:48Z" finished-at="2019-03-08T06:50:01Z">
-      <class name="com.qa.crm.testcases.CreateDealPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.crm.testcases.CreateDealPageTest@1794d431]" name="setup" is-config="true" duration-ms="6836" started-at="2019-03-08T06:49:48Z" finished-at="2019-03-08T06:49:55Z">
+    <test name="Default test" duration-ms="672" started-at="2019-09-08T00:00:21Z" finished-at="2019-09-08T00:00:22Z">
+      <class name="com.qa.crm.testcases.DataProvidertest">
+        <test-method status="PASS" signature="ReadData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.crm.testcases.DataProvidertest@47c62251]" name="ReadData" duration-ms="6" started-at="2019-09-08T00:00:22Z" data-provider="gettestReadData" finished-at="2019-09-08T00:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yadav]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2140.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TRMPS]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[modinagar]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateDealTest()[pri:0, instance:com.qa.crm.testcases.CreateDealPageTest@1794d431]" name="CreateDealTest" duration-ms="5774" started-at="2019-03-08T06:49:55Z" finished-at="2019-03-08T06:50:01Z">
+        </test-method> <!-- ReadData -->
+        <test-method status="PASS" signature="ReadData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.crm.testcases.DataProvidertest@47c62251]" name="ReadData" duration-ms="1" started-at="2019-09-08T00:00:22Z" data-provider="gettestReadData" finished-at="2019-09-08T00:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[engineer1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yadav1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2141.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TRMPS1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[modinagar1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateDealTest -->
-      </class> <!-- com.qa.crm.testcases.CreateDealPageTest -->
+        </test-method> <!-- ReadData -->
+        <test-method status="PASS" signature="ReadData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.crm.testcases.DataProvidertest@47c62251]" name="ReadData" duration-ms="1" started-at="2019-09-08T00:00:22Z" data-provider="gettestReadData" finished-at="2019-09-08T00:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[engineer2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yadav2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2142.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TRMPS2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[modinagar2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadData -->
+        <test-method status="PASS" signature="ReadData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.crm.testcases.DataProvidertest@47c62251]" name="ReadData" duration-ms="0" started-at="2019-09-08T00:00:22Z" data-provider="gettestReadData" finished-at="2019-09-08T00:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[engineer3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yadav3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2143.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TRMPS3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[modinagar3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadData -->
+        <test-method status="PASS" signature="ReadData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.crm.testcases.DataProvidertest@47c62251]" name="ReadData" duration-ms="1" started-at="2019-09-08T00:00:22Z" data-provider="gettestReadData" finished-at="2019-09-08T00:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[engineer4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yadav4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2144.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TRMPS4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[modinagar4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadData -->
+      </class> <!-- com.qa.crm.testcases.DataProvidertest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

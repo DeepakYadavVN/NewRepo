@@ -26,4 +26,9 @@ public class DealsPage extends TestBase {
 	public String verifyPageTitle() {
 		return driver.getTitle();
 	}
+	
+	public void testdeal() {
+		driver.get("https://groww.in");
+		System.out.println(driver.getTitle());
+	}
 }

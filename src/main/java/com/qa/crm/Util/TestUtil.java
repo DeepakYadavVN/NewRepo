@@ -1,5 +1,6 @@
 package com.qa.crm.Util;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -17,6 +18,7 @@ public class TestUtil extends TestBase {
 	}
 	
 	//Select value from DropDown Box
+	
 	public void selectDropDownValue(WebElement xpath, String Value) {
 		List<WebElement> listVal= driver.findElements((By) xpath);
 		for(int i=0;i<listVal.size();i++) {
@@ -29,4 +31,12 @@ public class TestUtil extends TestBase {
 			}
 		}
 	}
+	
+	//Start Docker-- Idea Implement docker with selenium Grid
+	
+//	public void startDocker() throws IOException {
+//		Runtime runtime= Runtime.getRuntime();
+//		runtime.exec("\\DemoFreeCrm10\\DockerFile\\DockerCompose.bat");
+//		
+//	}
 }

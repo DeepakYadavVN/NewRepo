@@ -18,15 +18,26 @@ public class LoginPage extends TestBase {
 		@FindBy(xpath="//button[@type='submit' and @id='loginBtn']")
 		WebElement LoginBtn;
 		
-		
+		// Intilization PageObject
 		public LoginPage() {
 			PageFactory.initElements(driver,this);
 		}
 		
-		public HomePage login(String un, String pwd) {
-			Email.sendKeys(un);
-			Password.sendKeys(pwd);
-			LoginBtn.click();
-			return new HomePage();
+		//Actions
+//		public HomePage login(String un, String pwd) {
+//			Email.sendKeys(un);
+//			Password.sendKeys(pwd);
+//			LoginBtn.click();
+//			return new HomePage();
+//		}
+		
+		public void login() {
+			driver.get("http://google.com");
+			System.out.println(driver.getTitle());
+		}
+		
+		public void login1(){
+			driver.get("https://clarity.dexcom.eu/");
+			System.out.println("Item 1"+ driver.getTitle());
 		}
 }
