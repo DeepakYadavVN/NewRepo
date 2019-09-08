@@ -19,6 +19,9 @@ public class LambdaExpression {
 		names.add("shau");
 		names.add("sandeep");
 		System.out.println("test");
+		System.out.println("test1");
+		System.out.println("test2");
+		System.out.println("test3");
 	}
 
 }
